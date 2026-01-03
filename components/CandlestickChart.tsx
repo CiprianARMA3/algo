@@ -77,9 +77,8 @@ export default function CandlestickChart({ data, symbol }: CandlestickChartProps
     // Update data when it changes
     useEffect(() => {
         if (seriesRef.current && data.length > 0) {
-            // Convert timestamps to unix timestamps
             const formattedData = data.map(d => ({
-                time: new Date(d.time).getTime() / 1000,
+                time: d.time.split('T')[0],
                 open: d.open,
                 high: d.high,
                 low: d.low,
