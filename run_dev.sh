@@ -2,6 +2,11 @@
 
 # Script to run the development servers for both frontend and backend
 
+# --- Change to the script's directory ---
+# This allows the script to be run from anywhere.
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd "$SCRIPT_DIR"
+
 # Function to clean up background processes on exit
 cleanup() {
     echo -e "\nShutting down servers..."

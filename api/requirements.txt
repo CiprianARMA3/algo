@@ -1,36 +1,38 @@
 # Core API Framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-pydantic==2.5.3
-pydantic-settings==2.1.0
-python-multipart==0.0.6
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
 
 # Data Processing
-numpy==1.26.3
+numpy
 pandas
 scipy
 
 # Financial Data Provider
-yfinance==0.2.35
-requests==2.31.0
+yfinance
+requests
 
 # Econometrics & Statistics
 statsmodels
 arch
-PyWavelets==1.5.0
-emd==0.6.1
+
+# Signal Processing
+PyWavelets
+emd
 
 # Machine Learning
 scikit-learn
-hmmlearn==0.3.2
+hmmlearn
 
 # Technical Analysis
-ta==0.11.0
+ta
 pandas-ta
 
 # Caching
-redis==5.0.1
+redis
 
 # Utilities
-python-dateutil==2.8.2
-pytz==2023.3.post1
+python-dateutil
+pytz
