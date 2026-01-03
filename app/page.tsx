@@ -135,7 +135,7 @@ export default function Home() {
                     </div>
                     <div className="w-full bg-gray-800 rounded-full h-2">
                       <div
-                        className={`h-2 rounded-full transition-all ${index === analysis.regime.current_regime
+                        className={`h-2 rounded-full transition-all ${index === analysis.regime?.current_regime
                           ? 'bg-gradient-to-r from-blue-500 to-purple-500'
                           : 'bg-gray-600'
                           }`}
