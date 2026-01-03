@@ -33,9 +33,9 @@ router = APIRouter()
 @router.get("/analyze/{symbol}", response_model=AnalysisResponse)
 async def analyze_symbol(
     symbol: str,
-    lookback_days: int = Query(default=252, ge=30, le=2520),
-    include_signal_processing: bool = True,
-    include_regime: bool = True
+    lookback_days: int = Query(default=90, ge=30, le=365),
+    include_signal_processing: bool = False,
+    include_regime: bool = False
 ):
     """
     Perform comprehensive quantitative analysis on a symbol

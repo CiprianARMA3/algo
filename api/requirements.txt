@@ -7,28 +7,26 @@ python-multipart==0.0.6
 
 # Data Processing
 numpy==1.26.3
-pandas==2.1.4
-scipy==1.11.4
+pandas
+scipy
 
 # Financial Data Provider
 yfinance==0.2.35
 requests==2.31.0
 
 # Econometrics & Statistics
-statsmodels==0.14.1
-arch==6.3.0
-
-# Signal Processing
+statsmodels
+arch
 PyWavelets==1.5.0
 emd==0.6.1
 
 # Machine Learning
-scikit-learn==1.4.0
+scikit-learn
 hmmlearn==0.3.2
 
 # Technical Analysis
 ta==0.11.0
-pandas-ta==0.3.14b
+pandas-ta
 
 # Caching
 redis==5.0.1
